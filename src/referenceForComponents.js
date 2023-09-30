@@ -1,8 +1,9 @@
+import { useState } from 'react'
 import './App.css';
 import Button from "./components/Button";
 import CardList from './components/CardLIsit';
 import Content from './components/Content';
-import CreatePostModal from './CreatePostModal';
+import CreatePostModal from './components/CreatePostModal';
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
